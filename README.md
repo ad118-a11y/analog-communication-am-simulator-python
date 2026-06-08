@@ -5,6 +5,10 @@
 > **MAKAUT EC401 – Analog Communication Project**  
 > An interactive simulation and analysis tool for AM DSB-TC modulation, noisy channel transmission, and envelope detection.
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://touzpz7pnoq8qdalasm45s.streamlit.app/)
+
+🔗 **Live App:** [https://touzpz7pnoq8qdalasm45s.streamlit.app/](https://touzpz7pnoq8qdalasm45s.streamlit.app/)
+
 ---
 
 ## 🎯 Objective
