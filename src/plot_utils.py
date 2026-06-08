@@ -34,9 +34,13 @@ _LAYOUT_DEFAULTS = dict(
 
 
 def _add_grid(fig, rows=1):
-    for r in range(1, rows + 1):
-        fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor="#e0e0e0", row=r, col=1)
-        fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor="#e0e0e0", row=r, col=1)
+    if rows > 1:
+        for r in range(1, rows + 1):
+            fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor="#e0e0e0", row=r, col=1)
+            fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor="#e0e0e0", row=r, col=1)
+    else:
+        fig.update_xaxes(showgrid=True, gridwidth=1, gridcolor="#e0e0e0")
+        fig.update_yaxes(showgrid=True, gridwidth=1, gridcolor="#e0e0e0")
     return fig
 
 
